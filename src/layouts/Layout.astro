@@ -1,3 +1,7 @@
+---
+import "../styles/global.css";
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -8,7 +12,11 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro Basics</title>
 	</head>
-	<body>
+	<body class="min-h-screen text-white relative">
+		<div
+			class="fixed inset-0 -z-10 bg-[url('/background.png')] bg-cover bg-center blur-md"
+		>
+		</div>
 		<slot />
 	</body>
 </html>
