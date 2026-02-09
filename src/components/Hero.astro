@@ -1,4 +1,25 @@
+---
+import Countdown from "./Countdown";
+---
+
 <main class="flex flex-col items-center text-white">
+    <section class="flex items-center">
+        <div class="flex flex-col items-center">
+            <h1>DOMINGO</h1>
+            <h2 class="text-8xl">15</h2>
+            <h3 class="text-2xl">MARZO 2026</h3>
+            <h3>INICIA 3:00 PM</h3>
+            <Countdown client:load />
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="text-3xl">INVITA:</p>
+            <img
+                class="animate-fade-in h-50"
+                src="logo2.png"
+                alt="Logo Comparsa 2"
+            />
+        </div>
+    </section>
     <section class="flex items-center">
         <div class="flex flex-col items-center">
             <h1>EN HONOR A:</h1>
@@ -10,12 +31,6 @@
                 src="senor_tepalcingo.png"
                 alt="Señor Tepalcingo"
             />
-        </div>
-        <div class="flex flex-col items-center">
-            <h1>DOMINGO</h1>
-            <h2 class="text-8xl">15</h2>
-            <h3 class="text-2xl">MARZO 2026</h3>
-            <h3>INICIA 3:00 PM</h3>
         </div>
     </section>
     <section class="flex flex-col items-center">
